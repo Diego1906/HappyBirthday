@@ -20,22 +20,20 @@
         android:text="@string/txt_happy"
         android:textColor="@android:color/white"
         android:textSize="@dimen/text_size_txt"
-        android:paddingTop="15dp"
-        android:paddingLeft="5dp"
-        android:fontFamily="sans-serif-light"/>
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"/>
 
     <TextView
         android:id="@+id/txt_remetente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/txt_remetente"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="@string/txt_remetente"
-        android:textColor="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/text_size_txt"
-        android:paddingRight="15dp"
-        android:paddingBottom="10dp"
-        android:fontFamily="sans-serif-light"/>
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"/>
 
 </RelativeLayout>
 
